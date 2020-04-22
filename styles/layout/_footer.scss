@@ -1,0 +1,13 @@
+footer {
+  display: flex;
+  justify-content: center;
+
+  .footer__link {
+    color: $primary-color;
+    text-decoration: none;
+  }
+
+  &:visited {
+    text-decoration: none;
+  }
+}
